@@ -30,8 +30,8 @@ app.get('/paypal', (req,res) => {
             "payment_method": "paypal"
         },
         "redirect_urls": {
-            "return_url": "http://10.0.0.1:3000/success",
-            "cancel_url": "http://10.0.0.1:3000/cancel"
+            "return_url": "https://rn-paypal.herokuapp.com/success",
+            "cancel_url": "https://rn-paypal.herokuapp.com/cancel"
         },
         "transactions": [{
             "item_list": {
